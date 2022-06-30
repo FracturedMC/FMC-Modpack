@@ -77,18 +77,6 @@
 		#Amount (joules) of energy the Free Runners can accept per tick.
 		chargeRate = "320"
 
-		#Armored Free Runner Settings
-		[gear.free_runner.armored]
-			#Armor value of the Armored Free Runners
-			#Range: > 0
-			armor = 3
-			#Toughness value of the Armored Free Runners.
-			#Range: 0.0 ~ 3.4028234663852886E38
-			toughness = 2.0
-			#Knockback resistance value of the Armored Free Runners.
-			#Range: 0.0 ~ 3.4028234663852886E38
-			knockbackResistance = 0.0
-
 	#Jetpack Settings
 	[gear.jetpack]
 		#Jetpack Gas Tank capacity in mB.
@@ -101,14 +89,9 @@
 		#Armored Jetpack Settings
 		[gear.jetpack.armored]
 			#Armor value of the Armored Jetpack.
-			#Range: > 0
 			armor = 8
 			#Toughness value of the Armored Jetpack.
-			#Range: 0.0 ~ 3.4028234663852886E38
 			toughness = 2.0
-			#Knockback resistance value of the Armored Jetpack.
-			#Range: 0.0 ~ 3.4028234663852886E38
-			knockbackResistance = 0.0
 
 	#Network Reader Settings
 	[gear.network_reader]
@@ -149,10 +132,10 @@
 	#Canteen Settings
 	[gear.canteen]
 		#Maximum amount of Nutritional Paste storable by the Canteen.
-		#Range: > 1
+		#Range: 1 ~ 9223372036854775807
 		maxStorage = 64000
 		#Rate at which Nutritional Paste can be transferred into a Canteen.
-		#Range: > 1
+		#Range: 1 ~ 9223372036854775807
 		transferRate = 128
 
 	#Meka-Tool Settings
@@ -167,7 +150,7 @@
 		energyUsageTeleport = "1000"
 		#Maximum distance a player can teleport with the Meka-Tool.
 		maxTeleportReach = 100
-		#Base damage applied by the Meka-Tool without using any energy.
+		#Damage applied by Meka-Tool without using any energy.
 		baseDamage = 4
 		#Efficiency of the Meka-Tool with energy but without any upgrades.
 		baseEfficiency = 4.0
@@ -177,10 +160,12 @@
 		chargeRate = "100000"
 		#Cost in Joules of using the Meka-Tool as a hoe.
 		energyUsageHoe = "10"
-		#Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.
+		#Cost in Joules of using the Meka-Tool as a shovel for making paths.
 		energyUsageShovel = "10"
-		#Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.
+		#Cost in Joules of using the Meka-Tool as an axe for stripping logs.
 		energyUsageAxe = "10"
+		#Cost in Joules of using the Meka-Tool to shear blocks (beehives, pumpkins).
+		energyUsageShearBlock = "10"
 		#Cost in Joules of using the Meka-Tool to shear entities.
 		energyUsageShearEntity = "10"
 		#Enable the 'Extended Vein Mining' mode for the Meka-Tool. (Allows vein mining everything not just ores/logs)
@@ -212,8 +197,6 @@
 		solarRechargingRate = "500"
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
 		energyUsageVisionEnhancement = "500"
-		#Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.
-		energyUsageHydrostaticRepulsion = "500"
 		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
 		energyUsageNutritionalInjection = "20000"
 		#Energy usage (Joules) of MekaSuit per unit of damage applied.
@@ -221,10 +204,10 @@
 		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
 		energyUsageItemAttraction = "250"
 		#Maximum amount of Nutritional Paste storable by the nutritional injection unit.
-		#Range: > 1
+		#Range: 1 ~ 9223372036854775807
 		nutritionalMaxStorage = 128000
 		#Rate at which Nutritional Paste can be transferred into the nutritional injection unit.
-		#Range: > 1
+		#Range: 1 ~ 9223372036854775807
 		nutritionalTransferRate = 256
 		#Maximum amount of Hydrogen storable in the jetpack unit.
 		#Range: 1 ~ 9223372036854775807
@@ -232,24 +215,6 @@
 		#Rate at which Hydrogen can be transferred into the jetpack unit.
 		#Range: 1 ~ 9223372036854775807
 		jetpackTransferRate = 256
-		#Armor value of MekaSuit Helmets.
-		#Range: > 0
-		helmetArmor = 3
-		#Armor value of MekaSuit BodyArmor.
-		#Range: > 0
-		bodyArmorArmor = 8
-		#Armor value of MekaSuit Pants.
-		#Range: > 0
-		pantsArmor = 6
-		#Armor value of MekaSuit Boots.
-		#Range: > 0
-		bootsArmor = 3
-		#Toughness value of the MekaSuit.
-		#Range: 0.0 ~ 3.4028234663852886E38
-		toughness = 3.0
-		#Knockback resistance value of the MekaSuit.
-		#Range: 0.0 ~ 3.4028234663852886E38
-		knockbackResistance = 0.10000000149011612
 
 		[gear.mekasuit.damage_absorption]
 			#Percent of damage taken from fall that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
@@ -309,13 +274,4 @@
 			#Percent of damage taken from wither that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
 			#Range: 0.0 ~ 1.0
 			witherDamageReductionRatio = 1.0
-			#Percent of damage taken from freeze that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
-			#Range: 0.0 ~ 1.0
-			freezeDamageReductionRatio = 1.0
-			#Percent of damage taken from fallingStalactite that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
-			#Range: 0.0 ~ 1.0
-			fallingStalactiteDamageReductionRatio = 1.0
-			#Percent of damage taken from stalagmite that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
-			#Range: 0.0 ~ 1.0
-			stalagmiteDamageReductionRatio = 1.0
 

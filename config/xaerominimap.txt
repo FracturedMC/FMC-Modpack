@@ -34,7 +34,7 @@ lighting:true
 dotsStyle:0
 dotNameScale:1.0
 compassOverEverything:true
-showBiome:false
+showBiome:true
 showFlowers:true
 keepWaypointNames:true
 waypointsDistanceExp:0
@@ -55,6 +55,7 @@ hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
 showLightLevel:0
+renderLayerIndex:1
 crossDimensionalTp:true
 showTime:0
 biomeColorsVanillaMode:false
@@ -72,7 +73,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -102,5 +103,5 @@ interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:64:-67:false:false:true:false
+interface:gui.xaero_minimap:0:0:false:false:false:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

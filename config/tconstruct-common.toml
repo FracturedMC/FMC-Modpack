@@ -14,17 +14,6 @@
 	#If true, anvils will show all metal variants. If false, shows only a variant with the default texture
 	showAllAnvilVariants = true
 
-	#Tweaks to vanilla damage sources to better work with armor
-	[gameplay.damageTweaks]
-		#Makes withering damage count as magic
-		wither = true
-		#Makes dragons breath count as magic
-		dragon_breath = true
-		#Makes falling blocks count as projectile
-		falling_block = false
-		#Makes lightning count as fire damage
-		lightning = true
-
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]
 	#Add a recipe that allows you to craft a piece of flint using 3 gravel
@@ -35,48 +24,19 @@
 	witherBoneDrop = true
 	#Allows converting wither bones to regular bones
 	witherBoneConversion = true
-	#Slimeballs not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
+	#Slimealls not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
 	slimeRecipeFix = true
 	#Fixes clear glass not being usable in vanilla recipes that require glass. Config option exists to disable easily in case this fix is redundant to another mod
 	glassRecipeFix = true
-
-	[recipes.ore_rates]
-
-		#Ore rates when melting in the melter
-		[recipes.ore_rates.melter]
-			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
-			#Range: 1 ~ 45
-			nuggetsPerMetal = 12
-			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
-			#Range: 1 ~ 20
-			shardsPerGem = 8
-
-		#Ore rates when melting in the smeltery
-		[recipes.ore_rates.smeltery]
-			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
-			#Range: 1 ~ 45
-			nuggetsPerMetal = 12
-			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
-			#Range: 1 ~ 20
-			shardsPerGem = 8
-
-		#Ore rates when melting in the foundry
-		[recipes.ore_rates.foundry]
-			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
-			#Range: 1 ~ 45
-			nuggetsPerMetal = 9
-			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
-			#Range: 1 ~ 20
-			shardsPerGem = 4
-
-		#Byprouct rates when melting in the foundry
-		[recipes.ore_rates.foundry_byproduct]
-			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
-			#Range: 1 ~ 45
-			nuggetsPerMetal = 3
-			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
-			#Range: 1 ~ 20
-			shardsPerGem = 4
+	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
+	#Range: 1 ~ 45
+	melterNuggetsPerOre = 12
+	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
+	#Range: 1 ~ 45
+	smelteryNuggetsPerOre = 18
+	#Number of nuggets produced when an ore block is melted in the foundry. 9 nuggets would give 1 ingot
+	#Range: 1 ~ 45
+	foundryNuggetsPerOre = 15
 
 	#Entity head drops when killed by a charged creeper
 	[recipes.heads]
@@ -108,21 +68,57 @@
 
 #Everything to do with world generation
 [worldgen]
+	#Generate Copper
+	generateCopper = true
+	#Approx Ores per Chunk
+	veinCountCopper = 20
 	#Generate Cobalt
 	generateCobalt = true
 	#Approx Ores per Chunk
 	veinCountCobalt = 8
 
-	#Options related to slime geodes
-	[worldgen.geodes]
-		#If true, earthslime geodes generate deep in the world as another way to get slime
-		earth = true
-		#If true, skyslime geodes generate above amethyst as another way to get skyslime
-		sky = true
-		#If true, ichor geodes generate high in the nether. Strongly encouraged to keep enabled even if you disable the other geodes, as ichor crystals have some unique recipes and the fallbacks kinda suck for gameplay.
-		ichor = true
-		#If true, enderslime geodes generate as additional islands in the end
-		ender = true
+	#Options related to slime islands
+	[worldgen.slime_islands]
+
+		#Options related to earth slime islands spawning in the oceans
+		[worldgen.slime_islands.earth]
+			#If true, this island generates
+			generate = true
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 25
+
+		#Settings for sky slime islands in the overworld sky
+		[worldgen.slime_islands.sky]
+			#If true, this island generates
+			generate = true
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 30
+
+		#Settings for clay islands in the overworld sky
+		[worldgen.slime_islands.clay]
+			#If true, this island generates
+			generate = true
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 100
+
+		#Settings for blood islands in the nether lava ocean
+		[worldgen.slime_islands.blood]
+			#If true, this island generates
+			generate = true
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 13
+
+		#Settings for end slime islands in the outer end islands
+		[worldgen.slime_islands.end]
+			#If true, this island generates
+			generate = true
+			#How many chunks on average between islands
+			#Range: 10 ~ 500
+			separation = 25
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

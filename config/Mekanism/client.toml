@@ -5,7 +5,7 @@
 	enablePlayerSounds = true
 	#If enabled machines play their sounds while running.
 	enableMachineSounds = true
-	#Should holiday greetings and easter eggs play for holidays (ex: Christmas and New Years).
+	#Christmas/New Years greetings in chat.
 	holidays = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38

@@ -1,0 +1,99 @@
+{
+  "MOD_RESEARCHES": [
+    {
+      "modIds": [
+        "ars_nouveau",
+        "astralsorcery"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Wizard",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "enchanted",
+        "bloodmagic"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Witch",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "create"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Gearhead",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "industrialforegoing",
+        "appliedenergistics2"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Nerd",
+      "cost": 1
+    }
+  ],
+  "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        
+      },
+      "blockRestrictions": {
+       
+      },
+      "entityRestrictions": {
+       
+      },
+      "dimensionRestrictions": {
+        
+      }
+    }
+  ]
+}

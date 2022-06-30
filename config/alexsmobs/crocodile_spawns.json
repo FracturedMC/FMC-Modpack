@@ -33,28 +33,14 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "biomesoplenty:tundra_bog"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "biomesoplenty:tropic_beach"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:orchid_swamp"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:red_oasis"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:warm_river"
       }
     ]
   ]

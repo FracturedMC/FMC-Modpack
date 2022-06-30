@@ -1,0 +1,22 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "bloodmagic:guide": {
+      "viewedEntries": [
+        "bloodmagic:altar/blood_altar",
+        "bloodmagic:demon_will/demonic_items/sentient_sword",
+        "bloodmagic:alchemy_array/living_equipment/living_basics",
+        "bloodmagic:rituals/ritual_list/ritual_living_downgrade"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bloodmagic:alchemy_array/living_equipment/living_basics",
+        "bloodmagic:rituals/ritual_list/ritual_living_downgrade",
+        "bloodmagic:demon_will/demonic_items/sentient_sword",
+        "bloodmagic:altar/blood_altar"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

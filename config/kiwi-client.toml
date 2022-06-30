@@ -1,10 +1,9 @@
-contributorCosmetic = ""
+contributorEffect = ""
 #Show customized tooltips from any item. Mainly for pack devs
 globalTooltip = false
 #Max line width shown in description of tooltips
 #Range: > 50
-tooltipWrapWidth = 200
-noMicrosoftTelemetry = true
+tooltipWrapWidth1 = 200
 
 [debug]
 	#Show item tags in advanced tooltips
@@ -13,6 +12,4 @@ noMicrosoftTelemetry = true
 	nbtTooltip = true
 	#Allowed values: vanilla, kiwi
 	tooltipNBTFormatter = "vanilla"
-	#Show tips about disabling debug tooltips
-	debugTooltipMsg = false
 

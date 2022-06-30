@@ -16,7 +16,7 @@
 	#Base energy storage (Joules).
 	energizedSmelter = "20000"
 	#Base energy storage (Joules).
-	digitalMiner = "50000"
+	digitalMiner = "40000"
 	#Base energy storage (Joules).
 	electricPump = "40000"
 	#Base energy storage (Joules).
@@ -48,10 +48,6 @@
 	#Base energy storage (Joules).
 	laser = "2000000"
 	#Base energy storage (Joules).
-	laserAmplifier = "5000000000"
-	#Base energy storage (Joules).
-	laserTractorBeam = "5000000000"
-	#Base energy storage (Joules).
 	formulaicAssemblicator = "40000"
 	#Base energy storage (Joules).
 	teleporter = "5000000"
@@ -71,6 +67,4 @@
 	paintingMachine = "40000"
 	#Base energy storage (Joules). Also defines max output rate.
 	spsPort = "1000000000"
-	#Base energy storage (Joules).
-	dimensionalStabilizer = "40000"
 

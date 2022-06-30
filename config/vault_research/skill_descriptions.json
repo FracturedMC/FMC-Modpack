@@ -1,0 +1,68 @@
+{
+  "descriptions": {
+    "Wizard": [
+      {
+      "text": "Unlocks "
+      },
+      {
+        "text": "Ars Nouveau",
+        "bold": true
+      },      
+      {
+        "text": ", and "
+      },
+      {
+        "text": "Astral Sorcery",
+        "bold": true
+      }
+    ],
+    "Witch": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Enchanted: Witchcraft",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Blood Magic",
+        "bold": true
+      }
+    ],
+    "Gearhead": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Create",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Immersive Engineering",
+        "bold": true
+      }
+    ],
+    "Nerd": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Industrial Foregoing",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Applied Energistics 2",
+        "bold": true
+      }
+    ]
+  }
+}

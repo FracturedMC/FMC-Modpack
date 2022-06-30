@@ -2,7 +2,7 @@
 [steam]
 	#HU generation for each fuel burning tick. 10HU=1mb of steam. THIS AFFECT ALL BURNERS AND BOILERS!
 	#Range: 0 ~ 655360
-	HuPerFuelTick = 24
+	HuPerFuelTick = 68
 	#This defines how many mbs of steam does a mb of water can turn into.
 	#Range: 0.0 ~ 100000.0
 	steamPerWater = 12.0
@@ -38,7 +38,7 @@
 
 	[flywheel.bronze_flywheel]
 		#Range: 0 ~ 8192
-		bronzeFlywheelCapacity = 512
+		bronzeFlywheelCapacity = 1024
 		#Range: 0 ~ 8192
 		bronzeFlywheelSpeed = 32
 		#Range: 0 ~ 8192
@@ -48,7 +48,7 @@
 
 	[flywheel.cast_iron_flywheel]
 		#Range: 0 ~ 8192
-		castIronFlywheelCapacity = 1024
+		castIronFlywheelCapacity = 2048
 		#Range: 0 ~ 8192
 		castIronFlywheelSpeed = 32
 		#Range: 0 ~ 8192
@@ -58,7 +58,7 @@
 
 	[flywheel.steel_flywheel]
 		#Range: 0 ~ 8192
-		steelFlywheelCapacity = 2048
+		steelFlywheelCapacity = 4096
 		#Range: 0 ~ 8192
 		steelFlywheelSpeed = 32
 		#Range: 0 ~ 1048576

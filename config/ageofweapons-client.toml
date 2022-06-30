@@ -1,8 +1,0 @@
-
-#General
-[general]
-	#Activate the Update-Checker
-	update-checker = true
-	#Enable that tools/weapons to be added to the mod tabs of the correct epoch
-	add_vanilla_items_to_mod_tabs = true
-

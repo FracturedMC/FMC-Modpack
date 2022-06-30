@@ -13,20 +13,6 @@
         "negate": false,
         "value": "biomesoplenty:withered_abyss"
       }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "incendium:volcanic_deltas"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "incendium:withered_forest"
-      }
     ]
   ]
 }

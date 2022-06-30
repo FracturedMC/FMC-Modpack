@@ -1,0 +1,29 @@
+{
+  "styles": {  
+    "Wizard": {
+      "x": -75,
+      "y": 0,
+      "frameType": "STAR",
+      "texture": "wizard_icon"
+    },
+
+    "Witch": {
+      "x": -25,
+      "y": 0,
+      "frameType": "STAR",
+      "texture": "organisation"
+    },
+    "Gearhead": {
+      "x": 25,
+      "y": 0,
+      "frameType": "STAR",
+      "texture": "decorator"
+    },
+    "Nerd": {
+      "x": 75,
+      "y": 0,
+      "frameType": "STAR",
+      "texture": "double_locked"
+    }
+  }
+}

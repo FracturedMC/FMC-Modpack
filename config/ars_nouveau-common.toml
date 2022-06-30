@@ -3,9 +3,11 @@
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
 	dimensionBlacklist = []
+	#Spawn Arcane Ore in the world
+	genOre = true
 	#Rate of tree spawn per chunk
-	#Range: > 0
-	treeWeight = 100
+	#Range: 0.0 ~ 1.0
+	genTrees = 0.002
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
 	#Spawn a book in the players inventory on login
@@ -13,13 +15,13 @@
 	#How often Carbuncles spawn
 	#Range: 0 ~ 100
 	carbuncleWeight = 5
-	#How often Whirlisprigs spawn
+	#How often Sylphs spawn
 	#Range: 0 ~ 100
 	sylphWeight = 5
 	#How often Drygmys spawn
 	#Range: 0 ~ 100
 	drygmyWeight = 3
-	#How much mana whirlisprigs consume per generation
+	#How much mana sylphs consume per generation
 	#Range: 0 ~ 10000
 	sylphManaCost = 250
 	#How often Wilden Guardians spawn
@@ -37,12 +39,14 @@
 	stalkerHuntsAnimals = false
 	#Should the Wilden Defender attack animals?
 	defenderHuntsAnimals = false
-	#How much progress whirlisprigs must accumulate before creating resources
-	#Range: 0 ~ 10000
-	whirlisprigProgress = 250
+	#Archwood forest spawn weight
+	#Range: > 0
+	archwoodForest = 3
+	#Crystallizer output item. Do not use a wrong ID!
+	crystallizer_output = "ars_nouveau:mana_gem"
 
 [drygmy_production]
-	#How much source drygmys consume per generation
+	#How much mana drygmys consume per generation
 	#Range: 0 ~ 10000
 	drygmyManaCost = 1000
 	#How many channels must occur before a drygmy produces loot
@@ -94,11 +98,8 @@
 	#Enforce glyph per spell limit on casting? Turn this off if you are a pack maker and want to create more powerful items than players.
 	enforceGlyphLimitOnCast = true
 
-	#Items
-	[Spells.item]
-		#Cost per glyph in a codex
-		#Range: > 0
-		codexCost = 10
-		#Spawn Caster Tomes in Dungeon Loot?
-		spawnTomes = true
+#Items
+[item]
+	#Spawn Caster Tomes in Dungeon Loot?
+	spawnTomes = true
 

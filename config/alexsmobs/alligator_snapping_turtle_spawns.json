@@ -18,20 +18,6 @@
         "negate": false,
         "value": "biomesoplenty:tundra_bog"
       }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:ice_marsh"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:orchid_swamp"
-      }
     ]
   ]
 }

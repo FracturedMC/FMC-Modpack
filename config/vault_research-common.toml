@@ -1,0 +1,31 @@
+
+[general]
+	#Should players be able to invite other players to their team? (Allows sharing of research)
+	#Default: true
+	teamsEnabled = false
+	#Should players gain Vault XP by picking up XP orbs?
+	#Default: true
+	xpGain = false
+	#How many Research Points should a player receive when they join a server/load a world for the first time?
+	#Default: 0
+	#Range: > 0
+	playerStartingPoints = 0
+	#Enabling this slows (and eventually stops) Vault XP gain via mob farms.
+	#Default: true
+	noResearchFarming = true
+
+[tnl]
+	#The type of function used for the TNL function
+	#LINEAR (default): tnlBaseValue + level * e
+	#EXPONENTIAL: tnlBaseValue + level^e
+	#Allowed Values: LINEAR, EXPONENTIAL
+	funcType = "LINEAR"
+	#The base value, when level=0. Usually the amount of XP needed to reach level 1
+	#Range: > 1
+	baseValue = 500
+	#Extra value used for calculating TNL result.
+	#For LINEAR function type, this is multiplied by the player's current level
+	#For EXPONENTIAL function type, the player's current level is raised to ths power.
+	#Range: 0.0 ~ 1023.0
+	e = 50.0
+

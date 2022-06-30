@@ -16,7 +16,7 @@
 	#Energy per operation tick (Joules).
 	energizedSmelter = "50"
 	#Energy per operation tick (Joules).
-	digitalMiner = "1000"
+	digitalMiner = "100"
 	#Energy per operation tick (Joules).
 	electricPump = "100"
 	#Energy that can be transferred at once per charge operation (Joules).
@@ -61,8 +61,6 @@
 	pigmentMixer = "200"
 	#Energy per operation tick (Joules).
 	paintingMachine = "100"
-	#Energy per chunk per tick (Joules).
-	dimensionalStabilizer = "5000"
 
 	#Teleporter
 	[usage.teleporter]

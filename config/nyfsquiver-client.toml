@@ -10,7 +10,6 @@
 	#The margin on the top of the HUD Quiver.
 	#Range: 16 ~ 1000
 	VERTICAL_OFFSET = 16
-	#Scale of the GUI
-	#Range: 0.1 ~ 200.0
-	gui_scale = 1.0
+	#Use the old model?
+	OLD_MODEL = false
 

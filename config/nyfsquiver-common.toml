@@ -1,26 +1,37 @@
-#Should Quivers be Required for Bow Usage?
-requireQuiver = false
-#Should Melding show up in the Enchanting Table?
-meldingEnchantTable = true
-#Should Melding show up on Books?
-meldingBooks = true
-#Should Cycling show up in the Enchanting Table?
-cyclingEnchantTable = true
-#Should Cycling show up on Books?
-cyclingBooks = true
-#Should Quinfinity show up in the Enchanting Table?
-quinfinityEnchantTable = true
-#Should Quinfinity show up on Books?
-quinfinityBooks = true
+#Enable the basic quiver?
+enableBasic = true
+#Enable the iron quiver?
+enableIron = true
+#Enable the copper quiver?
+enableCopper = true
+#Enable the silver quiver?
+enableSilver = true
+#Enable the gold quiver?
+enableGold = true
+#Enable the diamond quiver?
+enableDiamond = true
+#Enable the obsidian quiver?
+enableObsidian = true
+#Fireproof the basic quiver?
+fireproofBasic = true
+#Fireproof the iron quiver?
+fireproofIron = true
+#Fireproof the copper quiver?
+fireproofCopper = true
+#Fireproof the silver quiver?
+fireproofSilver = true
+#Fireproof the gold quiver?
+fireproofGold = true
+#Fireproof the diamond quiver?
+fireproofDiamond = true
+#Fireproof the obsidian quiver?
+fireproofObsidian = true
 #How many rows does the basic quiver have?
 #Range: 1 ~ 13
 rowsBasic = 1
 #How many rows does the iron quiver have?
 #Range: 1 ~ 13
 rowsIron = 2
-#How many rows does the copper quiver have?
-#Range: 1 ~ 13
-rowsCopper = 2
 #How many rows does the gold quiver have?
 #Range: 1 ~ 13
 rowsGold = 3
@@ -36,9 +47,6 @@ columnsBasic = 9
 #How many columns does the iron quiver have?
 #Range: 1 ~ 13
 columnsIron = 9
-#How many columns does the copper quiver have?
-#Range: 1 ~ 13
-columnsCopper = 7
 #How many columns does the gold quiver have?
 #Range: 1 ~ 13
 columnsGold = 9

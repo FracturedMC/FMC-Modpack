@@ -1,0 +1,13 @@
+
+["Altar Options"]
+	altar_range = 16
+	altar_recharge_rate = 2.0
+
+["Cauldron Options"]
+	#Allow incorrect items to spoil brew
+	cauldron_item_spoil = true
+
+["Kettle Options"]
+	#Allow incorrect items to spoil brew
+	kettle_item_spoil = true
+

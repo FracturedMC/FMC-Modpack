@@ -1,0 +1,16 @@
+{
+	id: "9894bc41-cc1d-411a-82b0-de241a97929f"
+	type: "player"
+	player_name: "DeDog103"
+	ranks: {
+		9894bc41-cc1d-411a-82b0-de241a97929f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "DeDog103"
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}
