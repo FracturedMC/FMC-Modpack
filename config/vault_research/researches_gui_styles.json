@@ -11,19 +11,19 @@
       "x": -25,
       "y": 0,
       "frameType": "STAR",
-      "texture": "organisation"
+      "texture": "witch_icon"
     },
     "Gearhead": {
       "x": 25,
       "y": 0,
       "frameType": "STAR",
-      "texture": "decorator"
+      "texture": "gearhead_icon"
     },
     "Nerd": {
       "x": 75,
       "y": 0,
       "frameType": "STAR",
-      "texture": "double_locked"
+      "texture": "nerd_icon"
     }
   }
 }
