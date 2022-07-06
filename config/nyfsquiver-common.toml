@@ -1,0 +1,63 @@
+#Enable the basic quiver?
+enableBasic = true
+#Enable the iron quiver?
+enableIron = true
+#Enable the copper quiver?
+enableCopper = true
+#Enable the silver quiver?
+enableSilver = true
+#Enable the gold quiver?
+enableGold = true
+#Enable the diamond quiver?
+enableDiamond = true
+#Enable the obsidian quiver?
+enableObsidian = true
+#Fireproof the basic quiver?
+fireproofBasic = true
+#Fireproof the iron quiver?
+fireproofIron = true
+#Fireproof the copper quiver?
+fireproofCopper = true
+#Fireproof the silver quiver?
+fireproofSilver = true
+#Fireproof the gold quiver?
+fireproofGold = true
+#Fireproof the diamond quiver?
+fireproofDiamond = true
+#Fireproof the obsidian quiver?
+fireproofObsidian = true
+#How many rows does the basic quiver have?
+#Range: 1 ~ 13
+rowsBasic = 1
+#How many rows does the iron quiver have?
+#Range: 1 ~ 13
+rowsIron = 2
+#How many rows does the gold quiver have?
+#Range: 1 ~ 13
+rowsGold = 3
+#How many rows does the diamond quiver have?
+#Range: 1 ~ 13
+rowsDiamond = 4
+#How many rows does the Netherite quiver have?
+#Range: 1 ~ 13
+rowsNetherite = 5
+#How many columns does the basic quiver have?
+#Range: 1 ~ 13
+columnsBasic = 9
+#How many columns does the iron quiver have?
+#Range: 1 ~ 13
+columnsIron = 9
+#How many columns does the gold quiver have?
+#Range: 1 ~ 13
+columnsGold = 9
+#How many columns does the diamond quiver have?
+#Range: 1 ~ 13
+columnsDiamond = 9
+#How many columns does the Netherite quiver have?
+#Range: 1 ~ 13
+columnsNetherite = 9
+#Range: -1000 ~ 1000
+xPos = 76
+#Range: -1000 ~ 1000
+yPos = 24
+

@@ -1,0 +1,26 @@
+{
+  "SKILL_GATES": {
+    "entries": {
+      "Wizard": {
+        "dependsOn": [],
+        "lockedBy": ["Witch", "Gearhead", "Nerd"],
+        "pointsGate": 0
+      },
+      "Witch": {
+        "dependsOn": [],
+        "lockedBy": ["Wizard", "Gearhead", "Nerd"],
+        "pointsGate": 0
+      },
+      "Gearhead": {
+        "dependsOn": [],
+        "lockedBy": ["Wizard", "Witch", "Nerd"],
+        "pointsGate": 0
+      },
+      "Nerd": {
+        "dependsOn": [],
+        "lockedBy": ["Wizard", "Witch", "Gearhead"],
+        "pointsGate": 0
+      }
+    }
+  }
+}

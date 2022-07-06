@@ -1,0 +1,452 @@
+{
+  "MOD_RESEARCHES": [
+    {
+      "modIds": [
+        "ars_nouveau",
+        "astralsorcery"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": false,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": false,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Wizard",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "enchanted",
+        "bloodmagic"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Witch",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "create",
+        "immersiveengineering"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": false,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": false,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Gearhead",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "industrialforegoing",
+        "appliedenergistics2"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": false,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": false,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Nerd",
+      "cost": 1
+    }
+  ],
+  "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        "ars_nouveau:arcane_stone": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "astralsorcery:tome": {
+          "restricts":{
+           "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:mantle": {
+          "restricts":{
+           "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:illumination_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:architect_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:exchange_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true
+          }
+        },
+        "astralsorcery:grapple_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:blink_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "astralsorcery:knowledge_share": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:mana_fiber": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:dominion_wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:spell_bow": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:enchanters_mirror": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:caster_tome": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:enchanters_sword": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:enchanters_shield": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:archmage_spell_book": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:apprentice_spell_book": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:novice_spell_book": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:archmage_hood": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:archmage_robes": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:archmage_leggings": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:archmage_boots": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:apprentice_hood": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:apprentice_robes": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:apprentice_leggings": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:apprentice_boots": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:novice_hood": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:novice_robes": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:novice_leggings": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:novice_boots": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:wand": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:worn_notebook": {
+          "restricts":{
+            "CRAFTABILITY": true,
+           "EQUIP": true 
+          }
+        },
+        "ars_nouveau:basic_spell_turret": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:mana_condenser": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:scribes_table": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:arcane_relay": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:volcanic_accumulator": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:alchemical_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:vitalic_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:mycelial_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {
+        "astralsorcery:altar_discovery": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "astralsorcery:altar_attunement": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "astralsorcery:altar_constellation": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "astralsorcery:altar_radiance": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "astralsorcery:attunement_altar": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:basic_spell_turret": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:mana_condenser": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:scribes_table": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:arcane_relay": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:volcanic_accumulator": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:alchemical_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:vitalic_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "ars_nouveau:mycelial_sourcelink": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "entityRestrictions": {
+       
+      },
+      "dimensionRestrictions": {
+        
+      },
+      "name": "Wizard",
+      "cost": 1
+    }
+  ]
+}
