@@ -11,3 +11,5 @@
 
 ### 7/7/2022 DeDog103
 - Added 12 mods to the mod unlock menu
+- Removed Nature's Aura and Create Deco
+- Cleaned up config
