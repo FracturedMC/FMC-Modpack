@@ -24,6 +24,78 @@
       "y": 0,
       "frameType": "STAR",
       "texture": "nerd_icon"
+    },
+    "Waystones": {
+      "x": 90,
+      "y": -40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Upgraded Netherite": {
+      "x": 45,
+      "y": -60,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Tetra": {
+      "x": 0,
+      "y": -80,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Storage Drawers": {
+      "x": -45,
+      "y": -60,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Sophisticated Backpacks": {
+      "x": 0,
+      "y": -40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Lights": {
+      "x": -90,
+      "y": -40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Simple Storage Network": {
+      "x": -90,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Security Craft": {
+      "x": -45,
+      "y": 60,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Rats": {
+      "x": 0,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Nyfs Quiver": {
+      "x": 0,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Iron Chests": {
+      "x": 45,
+      "y": 60,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
+    },
+    "Farmers Delight": {
+      "x": 90,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "texture": "nerd_icon"
     }
   }
 }
