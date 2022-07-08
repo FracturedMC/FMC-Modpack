@@ -42,8 +42,9 @@
     },
     {
       "modIds": [
+        "immersiveengineering",
         "create",
-        "immersiveengineering"
+        "createaddition"
       ],
       "restrictions": {
         "restricts": {
@@ -69,15 +70,244 @@
         "restricts": {
           "DIMENSION_TRAVEL": true,
           "ENTITY_HITTABILITY": false,
-          "EQUIP": false,
+          "EQUIP": true,
           "ENTITY_INTERACTABILITY": true,
-          "CRAFTABILITY": false,
+          "CRAFTABILITY": true,
           "BLOCK_HITTABILITY": false,
-          "USABILITY": false,
+          "USABILITY": true,
           "BLOCK_INTERACTABILITY": false
         }
       },
       "name": "Nerd",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "waystones"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Waystones",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "upgradednetherite",
+        "upgradednetherite_items"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Upgraded Netherite",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "tetra"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Tetra",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "storagedrawers"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Storage Drawers",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "sophisticatedbackpacks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Sophisticated Backpacks",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "simplylight"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Lights",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "simplestoragenetwork"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Simple Storage Network",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "securitycraft"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Security Craft",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "rats"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Rats",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "nyfsquiver"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Nyfs Quiver",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "ironchests"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Iron Chests",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "farmersdelight"
+      ],
+      "restrictions": {
+        "restricts": {
+          "DIMENSION_TRAVEL": true,
+          "ENTITY_HITTABILITY": false,
+          "EQUIP": true,
+          "ENTITY_INTERACTABILITY": true,
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": true
+        }
+      },
+      "name": "Farmers Delight",
       "cost": 1
     }
   ],
@@ -446,6 +676,391 @@
         
       },
       "name": "Wizard",
+      "cost": 1
+    },
+    {
+      "itemRestrictions": {
+        "immersiveengineering:hammer": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },        
+        "immersiveengineering:wirecutter": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:screwdriver": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:wirecoil_copper": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:wirecoil_electrum": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:wirecoil_steel": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:wirecoil_redstone": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:component_iron": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:component_steel": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_lv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_lv_relay": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_mv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_mv_relay": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_hv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:connector_hv_relay": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:cokebrick": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:blastbrick": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_pipe": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:craftingtable": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:reinforced_crate": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:crate": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:turntable": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_sorter": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:item_batcher": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:sorter": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:logic_unit": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_pump": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:thermoelectric_generator": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:electric_lantern": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:charging_station": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:cloche": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_lv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_mv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_hv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {
+        "immersiveengineering:cokebrick": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:blastbrick": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_pipe": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:craftingtable": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:reinforced_crate": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:crate": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:turntable": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_sorter": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:item_batcher": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:sorter": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:logic_unit": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:fluid_pump": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:thermoelectric_generator": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:electric_lantern": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:charging_station": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:cloche": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_lv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_mv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        },
+        "immersiveengineering:capacitor_hv": {
+          "restricts": {
+            "EQUIP": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "entityRestrictions": {
+       
+      },
+      "dimensionRestrictions": {
+        
+      },
+      "name": "Gearhead",
       "cost": 1
     }
   ]

@@ -12,7 +12,7 @@
 	#Range: 0 ~ 256
 	minYFosicDisplay = 0
 	#Whitelist of dimension ID's that will have special astral sorcery sky rendering
-	skyRenderingEnabled = ["minecraft:overworld"]
+	skyRenderingEnabled = [""]
 	#If a dimension is listed here, the skyrender will only render constellations on top of the existing skybox.
 	skyRenderingConstellations = []
 

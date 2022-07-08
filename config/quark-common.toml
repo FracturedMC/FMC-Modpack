@@ -504,10 +504,10 @@
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
-	Crevices = true
+	Crevices = false
 	Deepslate = true
 	"Fairy Rings" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
