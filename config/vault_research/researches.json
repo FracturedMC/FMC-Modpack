@@ -98,7 +98,7 @@
         }
       },
       "name": "Waystones",
-      "cost": 1
+      "cost": 3
     },
     {
       "modIds": [
@@ -137,7 +137,7 @@
         }
       },
       "name": "Tetra",
-      "cost": 1
+      "cost": 2
     },
     {
       "modIds": [
@@ -156,7 +156,7 @@
         }
       },
       "name": "Storage Drawers",
-      "cost": 1
+      "cost": 2
     },
     {
       "modIds": [
@@ -175,11 +175,12 @@
         }
       },
       "name": "Sophisticated Backpacks",
-      "cost": 1
+      "cost": 2
     },
     {
       "modIds": [
-        "simplylight"
+        "simplylight",
+        "fairylights"
       ],
       "restrictions": {
         "restricts": {
@@ -213,7 +214,7 @@
         }
       },
       "name": "Simple Storage Network",
-      "cost": 1
+      "cost": 3
     },
     {
       "modIds": [
@@ -251,7 +252,7 @@
         }
       },
       "name": "Rats",
-      "cost": 1
+      "cost": 2
     },
     {
       "modIds": [
