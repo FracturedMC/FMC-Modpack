@@ -63,6 +63,160 @@
         "text": "Applied Energistics 2",
         "bold": true
       }
+    ],
+    "Waystones": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Waystones.\n\n",
+        "bold": true
+      },
+      {
+        "text": "When the trip takes too long, use waystones! Waystones allows for quick and easy travel between places near and far. Be sure to have a path for your friends who don't have Waystones unlocked."
+      }
+    ],    
+    "Upgraded Netherite": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Upgraded Netherite.\n\n",
+        "bold": true
+      },
+      {
+        "text": "When normal netherite isint enough, upgrade it! Upgraded Netherite gives your armor a buff and some special properties."
+      }
+    ],
+    "Tetra": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Tetra.\n\n",
+        "bold": true
+      },
+      {
+        "text": "Tetra is a mod that allows you to make customizable tools and weapons out of various materials."
+      }
+    ],    
+    "Storage Drawers": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Storage Drawers.\n\n",
+        "bold": true
+      },
+      {
+        "text": "This mod allows the storing of a ridiculus amount of items at once. Combined with Simple Storage Networks, and this is a BEAST of a mod."
+      }
+    ],
+    "Sophisticated Backpacks": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Sophisticated Backpacks.\n\n",
+        "bold": true
+      },
+      {
+        "text": "This mod allows for the crafting of backpacks and backpack upgrades that can enhance your building and exploring experience!"
+      }
+    ],
+    "Lights": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Fairy",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Simply Lights.\n\n",
+        "bold": true
+      },
+      {
+        "text": "These mods unlock some bright decorations that will light up your base!"
+      }
+    ],
+    "Simple Storage Network": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Simple Storage Network.\n\n",
+        "bold": true
+      },
+      {
+        "text": "This is a mod for those who like chest monsters... Im looking at you, Grian... \n\nSimple Storage Network allows you to have your items nicely sorted in one system, and you can leave your chests an utter mess!"
+      }
+    ],
+    "Security Craft": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Security Craft.\n\n",
+        "bold": true
+      },
+      {
+        "text": "Do you have a problem with nosey intruders? Well dont fret! Security Craft is here! Security Craft is a mod that includes all the devices you need to protect your base. Devices like inventory scanners and password locked chests."
+      }
+    ],
+    "Rats": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Rats.\n\n",
+        "bold": true
+      },
+      {
+        "text": "The Rats mod seems small, but is actually very big. You can get rats to farm for you, place and break blocks, etc."
+      }
+    ],
+    "Nyfs Quiver": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Nyfs Quiver.\n\n",
+        "bold": true
+      },
+      {
+        "text": "This unlocks different classes of quivers than can hold large amounts of arrows."
+      }
+    ],
+    "Iron Chests": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Iron Chests.\n\n",
+        "bold": true
+      },
+      {
+        "text": "Bigger, better storage for anyone who unlocks this mod!"
+      }
+    ],
+    "Farmers Delight": [
+      {
+        "text": "Unlocks "
+      },
+      {
+        "text": "Farmers Delight.\n\n",
+        "bold": true
+      },
+      {
+        "text": "Need better food? Well here it is! With Farmer's Delight you can cook your own food in your own kitchen!"
+      }
     ]
+
+
+
   }
 }
