@@ -22,7 +22,7 @@
     },
     {
       "modIds": [
-        "enchanted",
+        "hexerei",
         "bloodmagic"
       ],
       "restrictions": {
@@ -256,7 +256,8 @@
     },
     {
       "modIds": [
-        "nyfsquiver"
+        "nyfsquiver",
+        "enigmaticlegacy"
       ],
       "restrictions": {
         "restricts": {
@@ -270,7 +271,7 @@
           "BLOCK_INTERACTABILITY": true
         }
       },
-      "name": "Nyfs Quiver",
+      "name": "Trinkets",
       "cost": 1
     },
     {

@@ -1,0 +1,43 @@
+{
+	id: "3F49E6EAE80F9272"
+	group: "526FABD736E01714"
+	order_index: 1
+	filename: "witch"
+	title: "Witch"
+	icon: {
+		id: "hexerei:witch_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: "hexerei:broom"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Burn it like a steak!"
+		description: ["Your objective as a witch is to brew concoctions and participate in the dark arts. I suggust starting a farm to grow the herbs you will need for your journey."]
+		id: "44CF04040D5E9A48"
+		tasks: [{
+			id: "7E92CAFD9B6981A3"
+			type: "checkmark"
+			title: "Welcome, Witch!"
+		}]
+		rewards: [{
+			id: "21B5C3F2255FFF0E"
+			type: "item"
+			item: {
+				id: "minecraft:cookie"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Cockie\"}"
+					}
+				}
+			}
+		}]
+	}]
+}

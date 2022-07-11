@@ -1,0 +1,92 @@
+{
+	id: "41AB89302C51E90A"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_fractured"
+	title: "Welcome to Fractured!"
+	icon: "itemfilters:not"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Fractured!"
+			icon: "enigmaticlegacy:etherium_ore"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Keep in mind that recipies have been changed!"
+			description: ["Fractured is a modpack where the progression is fractured! You can only choose one main questline! I wonder what you will choose... Press \"H\" to open the selection menu. But not before reading the rest of the quests!"]
+			id: "7A690585365D733B"
+			tasks: [{
+				id: "3AA0CFADBB02FACA"
+				type: "checkmark"
+				title: "Welcome! Fractured is a modpack where your progression is fractured! You can only choose one main questline... What will you choose I wonder? Press \"H\" to open the class selection menu."
+			}]
+			rewards: [{
+				id: "029561AEE16F80A1"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Cockie\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "quark:abacus"
+			x: -1.0d
+			y: 1.5d
+			description: ["There are four main classes. Wizard, Witch, Gearhead, and Nerd. These classes all have their own progression, and the same amount of research points. By default you have one, and can only unlock one class. Be careful though, after selecting a class you can NOT UNDO IT!!!"]
+			id: "14AB6BB4A35266F4"
+			tasks: [{
+				id: "11C6DF8FD25BA164"
+				type: "checkmark"
+				title: "Classes"
+			}]
+			rewards: [{
+				id: "6E62D8FBC08272BD"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Cockie\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "vault_research:research_orb"
+			x: 1.0d
+			y: 1.5d
+			description: ["Research points can be used to unlock mods. You gain research points by completing milestones in your main quest line."]
+			id: "058BDB52909D740E"
+			tasks: [{
+				id: "16E7C6C95A8B4DAE"
+				type: "checkmark"
+				title: "Research Points"
+			}]
+			rewards: [{
+				id: "7FE7D29015796C34"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Cockie\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

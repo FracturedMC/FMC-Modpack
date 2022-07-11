@@ -1,0 +1,38 @@
+{
+	id: "78204EC741682464"
+	group: "526FABD736E01714"
+	order_index: 2
+	filename: "gearhead"
+	title: "Gearhead"
+	icon: "titanium:iron_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Welcome, Gearhead!"
+		icon: "create:wrench"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "\"You know what really grinds my gears?\""
+		description: ["Your mission will be to automate the production of items in extremely convoluted ways because you don't know any other way to do it!"]
+		id: "6E2BF53B9D42799D"
+		tasks: [{
+			id: "1969CDCC61AE63C7"
+			type: "checkmark"
+			title: "Welcome, Wizard!"
+		}]
+		rewards: [{
+			id: "55D3ABF8D2525A87"
+			type: "item"
+			item: {
+				id: "minecraft:cookie"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Cockie\"}"
+					}
+				}
+			}
+		}]
+	}]
+}
