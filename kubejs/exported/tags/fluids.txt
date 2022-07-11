@@ -1,0 +1,144 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 11, 2022 12:30:30 AM
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- hexerei:blood_flowing
+- hexerei:blood_fluid
+- hexerei:tallow_flowing
+- hexerei:tallow_fluid
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- securitycraft:fake_water
+- securitycraft:flowing_fake_water
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:pink_slime
+- industrialforegoing:pink_slime
+- industrialforegoing:pink_slime_fluid
+
+#forge:biofuel
+- industrialforegoing:biofuel
+- industrialforegoing:biofuel_fluid
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:magentite
+- bigreactors:magentite
+- bigreactors:magentite_flowing
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- hexerei:quicksilver_flowing
+- hexerei:quicksilver_fluid
+- securitycraft:fake_lava
+- securitycraft:flowing_fake_lava
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:meat
+- industrialforegoing:meat
+- industrialforegoing:meat_fluid
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:sewage
+- industrialforegoing:sewage
+- industrialforegoing:sewage_fluid
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:verderium
+- bigreactors:verderium
+- bigreactors:verderium_flowing
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#forge:steam
+- bigreactors:steam
+- bigreactors:steam_flowing
+
+#forge:ender
+
+#forge:experience
+- sophisticatedbackpacks:xp_still
+- industrialforegoing:essence
+- industrialforegoing:essence_fluid
+- cofh_core:experience
+
+#forge:yellorium
+- bigreactors:yellorium
+- bigreactors:yellorium_flowing
+
+#forge:life
+- bloodmagic:life_essence_fluid
+- bloodmagic:life_essence_fluid_flowing
+
+#forge:glowstone
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:drill_fuel
+- #forge:biodiesel
+
+#forge:rossinite
+- bigreactors:rossinite
+- bigreactors:rossinite_flowing
+
+#forge:latex
+- industrialforegoing:latex
+- industrialforegoing:latex_fluid
+
+#forge:honey
+- cofh_core:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#forge:sludge
+- industrialforegoing:sludge
+- industrialforegoing:sludge_fluid
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:cyanite
+- bigreactors:cyanite
+- bigreactors:cyanite_flowing
+
+#forge:blutonium
+- bigreactors:blutonium
+- bigreactors:blutonium_flowing

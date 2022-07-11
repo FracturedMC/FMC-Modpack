@@ -21,7 +21,7 @@
         "text": "Unlocks "
       },
       {
-        "text": "Enchanted: Witchcraft",
+        "text": "Hexelei",
         "bold": true
       },
       {
@@ -179,16 +179,20 @@
         "text": "The Rats mod seems small, but is actually very big. You can get rats to farm for you, place and break blocks, etc."
       }
     ],
-    "Nyfs Quiver": [
+    "Trinkets": [
       {
         "text": "Unlocks "
       },
       {
-        "text": "Nyfs Quiver.\n\n",
+        "text": "Various Trinkets.\n\n",
         "bold": true
       },
       {
-        "text": "This unlocks different classes of quivers than can hold large amounts of arrows."
+        "text": "This unlocks different mods that add useful items to the game. The main mod here being "
+      },
+      {
+        "text": "Enigmatic Legacy.",
+        "bold": true
       }
     ],
     "Iron Chests": [

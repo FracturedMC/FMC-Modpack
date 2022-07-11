@@ -13,3 +13,17 @@
 - Added 12 mods to the mod unlock menu
 - Removed Nature's Aura and Create Deco
 - Cleaned up config
+
+### 7/10/2022 DeDog103
+- Replaced Craft Tweaker with KubeJS
+- Started working on quests
+- Added Artifacts
+- Added Lootr
+- Added Hexerei
+- Added Fairy Lights
+- Added Bed Spreads
+- Removed Voice Chat
+- Removed zombie awareness
+- Removed Enchanted: Witchcraft
+- You now are forced to select a class before unlocking misc mods
+- More that i prob forgot about

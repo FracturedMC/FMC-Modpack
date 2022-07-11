@@ -20,7 +20,68 @@
         "dependsOn": [],
         "lockedBy": ["Wizard", "Witch", "Gearhead"],
         "pointsGate": 0
+      },
+      "Waystones": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Upgraded Netherite": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      }, 
+       "Tetra": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Storage Drawers": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Sophisticated Backpacks": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Lights": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Simple Storage Network": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Security Craft": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Rats": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Trinkets": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Iron Chests": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
+      },
+      "Farmers Delight": {
+        "dependsOn": [],
+        "lockedBy": [],
+        "pointsGate": 1
       }
+
     }
   }
 }
