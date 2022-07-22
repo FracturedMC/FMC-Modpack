@@ -27,3 +27,17 @@
 - Removed Enchanted: Witchcraft
 - You now are forced to select a class before unlocking misc mods
 - More that i prob forgot about
+
+
+### 7/13/2022 DeDog103
+- Added a lot of Wizard Quests
+- Updated Ars Nouveau config
+- Changed lots of recipies
+- Replaced item names to fit with lore
+
+### 7/22/2022 DeDog103
+- Updated Wizard Quests
+- Updated Better Villages
+- Updated Blood Magic
+- Updated Ars Nouveau
+- Updated Collective

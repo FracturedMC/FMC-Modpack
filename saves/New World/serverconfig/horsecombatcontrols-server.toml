@@ -1,6 +1,0 @@
-
-#General Settings
-[general]
-	#Lock controls to the combat mode
-	lock_combat_mode = false
-
