@@ -8,11 +8,19 @@ onEvent('item.tags', event => {
     event.get('forge:marble').add('astralsorcery:marble_raw')
 })
 
+
 onEvent('recipes', event => {
     event.remove({id: 'astralsorcery:shaped/wand'})
     event.remove({id: 'astralsorcery:altar/wand'})
     event.remove({id: 'astralsorcery:altar/linking_tool'})
+    event.remove({output: 'ars_nouveau:arcane_core'})
+    event.remove({id: 'ars_nouveau:enchanting_apparatus'})
+    event.remove({id: 'ars_nouveau:arcane_pedestal'})
+    event.remove({id: 'ars_nouveau:novice_spell_book'})
+    event.remove({output: 'ars_nouveau:whelp_charm'})
 
+
+    //resonating wand
     event.shaped('astralsorcery:wand', [
         ' AS',
         ' MA',
@@ -23,6 +31,7 @@ onEvent('recipes', event => {
         A: 'astralsorcery:aquamarine'
       })
 
+    //marble to infused marble
     event.custom({
       'type': 'astralsorcery:block_transmutation',
       'input': [
@@ -44,6 +53,7 @@ onEvent('recipes', event => {
       'starlight': 60
     })
 
+    //linking tool recipe
     event.custom({
 
       "type": "astralsorcery:altar",
@@ -78,5 +88,250 @@ onEvent('recipes', event => {
         "astralsorcery:built_in_effect_discovery_central_beam"
       ]
 
+    })
+
+    //empty core
+    event.custom({
+
+      "type": "astralsorcery:altar",
+      "altar_type": 1,
+      "duration": 200,
+      "starlight": 1500,
+      "pattern": [
+        "C___C",
+        "_BDB_",
+        "_BAB_",
+        "_BDB_",
+        "C___C"
+      ],
+      "key": {
+        "A": {
+          "item": "astralsorcery:rock_crystal"
+        },
+        "B": {
+          "tag": "forge:ingots/gold"
+        },
+        "C": {
+          "item": "minecraft:gold_block"
+        },
+        "D": {
+          "item": "ars_nouveau:arcane_stone"
+        }
+      },
+      "output": [
+        {
+          "item": "kubejs:empty_core",
+          "count": 1
+        }
+      ],
+      "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam",
+        "astralsorcery:built_in_effect_attunement_sparkle"
+      ]
+
+    })
+
+    //enchanting apparatus
+    event.custom({
+
+      "type": "astralsorcery:altar",
+      "altar_type": 1,
+      "duration": 200,
+      "starlight": 1500,
+      "pattern": [
+        "B___B",
+        "_BCB_",
+        "_BAB_",
+        "_BCB_",
+        "B___B"
+      ],
+      "key": {
+        "A": {
+          "tag": "forge:gems/diamond"
+        },
+        "B": {
+          "tag": "forge:ingots/gold"
+        },
+        "C": {
+          "item": "ars_nouveau:arcane_stone"
+        }
+      },
+      "output": [
+        {
+          "item": "ars_nouveau:enchanting_apparatus",
+          "count": 1
+        }
+      ],
+      "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam",
+        "astralsorcery:built_in_effect_attunement_sparkle"
+      ]
+
+    })
+
+    //arcane pedestal
+    event.custom({
+
+      "type": "astralsorcery:altar",
+      "altar_type": 1,
+      "duration": 200,
+      "starlight": 1500,
+      "pattern": [
+        "B___B",
+        "_CAC_",
+        "_BCB_",
+        "_BCB_",
+        "B___B"
+      ],
+      "key": {
+        "A": {
+          "tag": "forge:gems/diamond"
+        },
+        "B": {
+          "tag": "forge:ingots/gold"
+        },
+        "C": {
+          "item": "ars_nouveau:arcane_stone"
+        }
+      },
+      "output": [
+        {
+          "item": "ars_nouveau:arcane_pedestal",
+          "count": 1
+        }
+      ],
+      "effects": [
+        "astralsorcery:built_in_effect_discovery_central_beam",
+        "astralsorcery:built_in_effect_attunement_sparkle"
+      ]
+
+    })
+
+    //empty core to arcane core
+    event.custom({
+      'type': 'astralsorcery:block_transmutation',
+      'input': [
+        {
+          'block': 'kubejs:empty_core',
+          'display': {
+            'item': 'kubejs:empty_core',
+            'count': 1
+          }
+        }
+      ],
+      'output': {
+        'block': 'ars_nouveau:arcane_core'
+      },
+      'display': {
+        'item': 'ars_nouveau:arcane_core',
+        'count': 1
+      },
+      'starlight': 1600
+    })
+
+    //Book Wyrm Charm
+    event.custom({
+      "type": "ars_nouveau:enchanting_apparatus",
+      "item_1": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "item_2": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_3": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "item_4": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_5": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_6": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "item_7": [
+        {
+          "item": 'minecraft:lectern'
+        }
+      ],
+      "item_8": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "reagent": [
+        {
+          "item": "minecraft:book"
+        }
+      ],
+      "output": {
+        "item": 'ars_nouveau:whelp_charm'
+      }
+    })
+
+    //Novice Spell Book
+    event.custom({
+      "type": "ars_nouveau:enchanting_apparatus",
+      "item_1": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_2": [
+        {
+          "item": "ars_nouveau:carbuncle_shards"
+        }
+      ],
+      "item_3": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "item_4": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_5": [
+        {
+          "tag": "forge:nuggets/gold"
+        }
+      ],
+      "item_6": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "item_7": [
+        {
+          "item": "ars_nouveau:whelp_charm"
+        }
+      ],
+      "item_8": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "reagent": [
+        {
+          "item": "ars_nouveau:worn_notebook"
+        }
+      ],
+      "output": {
+        "item": "ars_nouveau:novice_spell_book"
+      }
     })
   })

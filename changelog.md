@@ -34,3 +34,10 @@
 - Updated Ars Nouveau config
 - Changed lots of recipies
 - Replaced item names to fit with lore
+
+### 7/22/2022 DeDog103
+- Updated Wizard Quests
+- Updated Better Villages
+- Updated Blood Magic
+- Updated Ars Nouveau
+- Updated Collective

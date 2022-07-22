@@ -101,7 +101,7 @@
 		}
 		{
 			title: "Craft Infused Marble"
-			x: 4.5d
+			x: 6.0d
 			y: 1.5d
 			subtitle: "Marble sucks up magic like a sponge!"
 			description: ["The current crafting altar won't do for long, we need a better one. For this we will need magical stone to craft it out of. Luckly, marble is perfect for absorbing magic! Grab some marble and infuse it with starlight. (or you can find old structures made of it)"]
@@ -155,7 +155,7 @@
 		}
 		{
 			x: 6.0d
-			y: 1.5d
+			y: 0.0d
 			description: ["With this tool you can redirect starlight from a collector crystal to any nearby block. Use this to infuse items with starlight."]
 			dependencies: ["2351C30E2633708B"]
 			id: "6BC0BF5B9D50DB20"
@@ -166,8 +166,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 4.5d
+			y: 1.5d
 			subtitle: "Wood can soak up water, so why not liquid starlight?"
 			description: ["Throw a log into some liquid starlight to get infused wood. "]
 			dependencies: ["622693C01EF3D077"]
@@ -199,13 +199,135 @@
 		}
 		{
 			x: 7.5d
-			y: 1.5d
-			dependencies: ["6BC0BF5B9D50DB20"]
-			id: "62765643113A9798"
+			y: -1.5d
+			subtitle: "Gold seems to be good at manipulating mana"
+			description: ["Now that we have access to earthly magic, we can make an Enchanting Apparatus. However, this will require a powerful core that overflows with magic. First, we create the frame."]
+			dependencies: ["16C0B6158E4EE415"]
+			id: "607DA7ADC11AEC22"
 			tasks: [{
-				id: "62014CDCABBA8BE4"
+				id: "1BA8D0966BDC2EE5"
 				type: "item"
-				item: "astralsorcery:starmetal_ore"
+				icon: "kubejs:empty_core"
+				item: "kubejs:empty_core"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Like a flame, the magic ignites. The magic will burn inside the core and consume the magic in the area. The lack of magic in the area will draw in more magic, thus creating an everlasting magical flame. We will use this flame to create new items with magic."]
+			dependencies: [
+				"6BC0BF5B9D50DB20"
+				"607DA7ADC11AEC22"
+			]
+			id: "0B8326D92AF81480"
+			tasks: [{
+				id: "596544BEA7862AE8"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Now that we have a core we can set up the ritual circle. You will need the arcane core in the middle with the enchanting apparatus on top of it. surround it with arcane pedistals and you did it!"]
+			dependencies: ["0B8326D92AF81480"]
+			id: "264A4B8A22C4656F"
+			tasks: [
+				{
+					id: "654E34595B0D63DC"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "2B2FEAC570420BBF"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Basic Spells"
+			x: 10.5d
+			y: 1.5d
+			description: ["Finally we can get into spells! Create different glyphs to add to your spell book to create more spells. Glyphs are basically the building blocks of spells, they are what make spells work! "]
+			dependencies: ["3194DCCBC0A95BAA"]
+			id: "0573096014775543"
+			tasks: [{
+				id: "4FFC8F77567E46D1"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Magic Seeds"
+			dependencies: ["264A4B8A22C4656F"]
+			id: "105A10A1B6703F26"
+			tasks: [{
+				id: "1DCDEF81D4A239EF"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			subtitle: "Magic Fiber"
+			dependencies: ["105A10A1B6703F26"]
+			id: "643D62A1DDD88D40"
+			tasks: [{
+				id: "53F489FB520F1BDC"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			subtitle: "Magic... Paper?"
+			dependencies: ["643D62A1DDD88D40"]
+			id: "71FAEFE90066473B"
+			tasks: [{
+				id: "012582C58569FEB2"
+				type: "item"
+				item: "ars_nouveau:blank_parchment"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			description: ["The Bookwyrm knows many things. Perhaps it can teach you the ways of casting spells."]
+			dependencies: [
+				"264A4B8A22C4656F"
+				"71FAEFE90066473B"
+			]
+			id: "3194DCCBC0A95BAA"
+			tasks: [{
+				id: "267F7A6558EA015F"
+				type: "item"
+				item: "ars_nouveau:whelp_charm"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			id: "4F13392DF92F272D"
+			tasks: [{
+				id: "3D7FDF4FB18BAE04"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			id: "122C0E4A52E10EEF"
+			tasks: [{
+				id: "15850A4157C92DDF"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
 			}]
 		}
 	]
